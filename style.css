@@ -209,6 +209,122 @@ nav ul{
 
 }
 
+
+/* Ai */
+
+/* Innovation Section */
+
+.innovation{
+    background: #FFFFFF;
+    padding: 100px 80px;
+}
+
+.innovationHeading{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.innovationHeading p{
+    color: #2563EB;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.innovationHeading h1{
+    font-size: 52px;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+.innovationHeading span{
+    color: #6B7280;
+    font-size: 18px;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    line-height: 30px;
+}
+
+.innovationContent{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.timeline{
+    border-left: 3px solid #2563EB;
+    padding-left: 35px;
+}
+
+.timelineItem{
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.circle{
+    position: absolute;
+    left: -46px;
+    top: 6px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #2563EB;
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.4);
+}
+
+.timelineItem h3{
+    font-size: 24px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.timelineItem p{
+    color: #6B7280;
+    line-height: 28px;
+}
+
+.innovationBox{
+    background: #1d2cb2;
+    color: white;
+    border-radius: 20px;
+    padding: 50px 35px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(37, 99, 235, 0.25);
+}
+
+.innovationBox h2{
+    color: white;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.innovationBox p{
+    color: #E5E7EB;
+    margin-bottom: 25px;
+}
+
+.innovationBox button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background: white;
+    color: #2563EB;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.innovationBox button:hover{
+    background: #EFF6FF;
+}
+
+
 /* footer */
 footer{
     background: #0F172A;

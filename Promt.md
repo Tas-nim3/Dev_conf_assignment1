@@ -1,0 +1,2 @@
+Prompt:
+Create an Innovation Zone section for the DevConf 2026 website using HTML and CSS. DevConf 2026 is a website for a developer conference. Use a white background with blue highlights. Make a timeline instead of cards. Include AI Playground, Live Coding Arena, Startup Showcase, and Career Hub. Add a small  box and an  button named Explore Experience. Keep the design simple, clean, and modern.
