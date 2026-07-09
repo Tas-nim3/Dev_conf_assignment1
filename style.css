@@ -1,0 +1,80 @@
+*{
+   margin:0px;
+   padding:0px;
+   font-family: "Inter", sans-serif;
+}
+
+
+/* for navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFFFFF;
+    padding:20px 80px ;
+}
+
+
+nav img{
+    width:130px;
+    height: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+    font-size: 16px;
+    color:#575757 ;
+}
+
+.button1{
+    background:#1D4ED8;
+    color: white;
+    padding:10px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius:10px;
+}
+
+
+/* Hero Section */
+
+.hero{
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("./assets/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+.overlay{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding-top: 150px;
+    padding-bottom: 90px;
+    
+}
+.overlay h1{
+    font-size:80px;
+}
+
+.overlay p{
+    font-family: 22px;
+    width:700px;
+}
+
+.overlay button{
+    margin-top: 300px;
+    padding: 22px 30px;
+    font-size: 24px;
+}
