@@ -45,8 +45,7 @@ ul{
 
 .hero{
     background:
-        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url("./assets/banner.jpg");
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("./assets/banner.jpg");
 
     background-size: cover;
     background-position: center;
@@ -77,4 +76,46 @@ ul{
     margin-top: 300px;
     padding: 22px 30px;
     font-size: 24px;
+}
+
+/* footer */
+footer{
+    background: #0F172A;
+    color: white;
+    padding: 50px 80px 20px;
+    
+}
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.social-icons a{
+    color: white;
+    font-size:30px;
+   
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #525355;
+    margin-bottom: 20px;
+}
+
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    color: #c5c6c6;
+    font-size: 16px;
+}
+.footerPrivacy{
+    display: flex;
+   gap: 20px;
+   color: #b0b0b0;
+
 }
